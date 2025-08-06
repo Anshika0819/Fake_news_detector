@@ -1,8 +1,0 @@
-import pandas as pd
-
-# Load dataset from URL (no need to download manually)
-url = "https://raw.githubusercontent.com/saurabhshri/fake-news-detection/main/data.csv"
-df = pd.read_csv(url)
-
-# Show first 5 rows
-print(df.head())
